@@ -14,5 +14,7 @@ qualquer coisa aperta alt F4
 dir
 ```
 ```
-cd ( obs caso esqueça aperte tab após o espaço )
+cd 
 ```
+
+( obs caso esqueça aperte tab após o espaço )
