@@ -17,4 +17,4 @@ dir
 cd 
 ```
 
-( obs caso esqueça aperte tab após o espaço )
+agora sou parte da patricia
