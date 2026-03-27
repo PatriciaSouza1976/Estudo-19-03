@@ -25,18 +25,28 @@ li {
 .opcao:hover {
     background-color: #ccc;
     color: black;
-    box-shadow: 0.3rem 0.3 rem 0.3 rem 0.01 #ddd;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.01rem #ddd;
     border: 0.1rem solid #bdbdbd;
 
 }
-.opcao:hover .rotulo{
-    text-align: rght;
-    }
-    .opcao:hover .icone-final{
-        opacity: 1;
-    }
 
-    .opcao:hover .icone-final{
-        opacity: 1;
-    }
-    .icone-final
+.opcao:hover .rotulo {
+    text-align: right;
+}
+
+.opcao:hover .icone-final {
+    opacity: 1;
+}
+
+.icone-inicial{
+    width: 1.5rem;
+}
+.rotulo {
+    flex: 1;
+}
+.icone-final {
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0,3s ease-in;
+}
