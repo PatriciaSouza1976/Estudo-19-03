@@ -4,18 +4,39 @@ nav {
     background-color: #eee;
     padding: .5rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     margin-bottom: 1rem;
 }
 
-.opcao{
-        display: flex;
+.opcao {
+    display: flex;
     border-radius: 0.5m;
     padding: 0.6rem;
     background-color: #ddd;
     color: #5e5e5e;
 
 }
+
+.opcao:hover {
+    background-color: #ccc;
+    color: black;
+    box-shadow: 0.3rem 0.3 rem 0.3 rem 0.01 #ddd;
+    border: 0.1rem solid #bdbdbd;
+
+}
+.opcao:hover .rotulo{
+    text-align: rght;
+    }
+    .opcao:hover .icone-final{
+        opacity: 1;
+    }
+
+    .opcao:hover .icone-final{
+        opacity: 1;
+    }
+    .icone-final
