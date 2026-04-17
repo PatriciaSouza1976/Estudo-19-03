@@ -54,9 +54,9 @@ header {
 }
 
 .menu-hamburguer:hover i {
-    color: yellow;
+    color: #eee;
 }
 
 .menu-hamburguer i:hover {
-    color: red;
+    color: white;
 }

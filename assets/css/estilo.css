@@ -1,6 +1,8 @@
 @import url("cartao.css");
 @import url("cabecalho.css");
 @import url("menu\ lateral.css");
+@import url(corpo.css);
+@import url(rodape.css);
 
 * {
     font-family: "Segoe UI", Arial, sans-serif;
@@ -16,20 +18,7 @@ body {
 }
 
 
-section {
-    /* border: .1rem solid blue; */
-    display: flex;
-    flex: 1;
-}
 
-
-
-main {
-    /* border: .1rem solid purple; */
-    display: flex;
-    flex: 1;
-    padding: .5rem;
-}
 
 footer {
     /* border: .1rem solid green; */
