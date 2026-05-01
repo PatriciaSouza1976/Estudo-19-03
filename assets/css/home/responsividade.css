@@ -1,11 +1,13 @@
-@midia(max-width: 576px){
-    .titulo{
+@media (max-width: 576px) {
+    .titulo {
         opacity: 0;
     }
-    nav{
+
+    nav {
         display: none;
     }
-    main{
+
+    main {
         flex-direction: column;
         align-items: center;
         align-content: center;

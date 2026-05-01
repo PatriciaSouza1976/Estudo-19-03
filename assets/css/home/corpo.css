@@ -3,7 +3,6 @@ section {
     display: flex;
     flex: 1;
 }
-
 .container {
     /* border: .1rem solid purple; */
     display: flex;

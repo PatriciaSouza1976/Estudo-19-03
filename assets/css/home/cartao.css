@@ -6,7 +6,7 @@
     flex-direction: column;
     width: 15rem;
     height: 28rem;
-    padding: 1rem;
+    padding: 1rem; 
 }
 
 .imagem-do-cartao {
@@ -14,16 +14,14 @@
     height: auto;
     aspect-ratio: 2/1.3;
     object-fit: cover;
-
 }
 
 .corpo-do-cartao {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    flex: 1;
     justify-content: space-between;
     margin-top: 0.5rem;
-
 }
 
 .titulo-do-cartao {
@@ -36,6 +34,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
+
+}
+
+.categoria-da-noticia .data-da-noticia .autor-da-noticia {
+    font-size: .7rem;
 }
 
 .categoria-da-noticia {
@@ -58,7 +61,7 @@
 .botao-do-cartao {
     max-width: 100%;
     padding: 0.5rem;
-    background-color: blue;
+    background-color: purple;
     color: #eee;
     font-weight: bold;
     border: none;
@@ -70,5 +73,5 @@
 }
 .botao-do-cartao:hover {
     background-color: #1818b0;
-    color: #ffffff;
+    color: white;
 }

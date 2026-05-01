@@ -8,12 +8,11 @@ header {
     padding: .5rem;
     background-color: #252323;
     color: #eee;
-
 }
 
 .logo {
-    border: .1rem blue solid;
-    background-color: blue;
+    border: .1rem purple solid;
+    background-color: purple;
     color: #eee;
     font-weight: bold;
     border-radius: 100%;
@@ -30,7 +29,6 @@ header {
 .titulo {
     flex: 1;
     /* border: .1rem solid white; */
-
 }
 
 .menu-hamburguer {
@@ -44,13 +42,11 @@ header {
     align-items: center;
     align-content: center;
     background-color: #464646;
-
 }
 
 .menu-hamburguer i {
     font-size: 1.2rem;
     color: #ccc;
-
 }
 
 .menu-hamburguer:hover i {
