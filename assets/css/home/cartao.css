@@ -37,13 +37,6 @@
 
 }
 
-.container-cartoes{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-}
-
 .categoria-da-noticia .data-da-noticia .autor-da-noticia {
     font-size: .7rem;
 }
@@ -83,8 +76,8 @@
     color: white;
 }
 
-.descricao-da-noticia {
-    font-size: 5rem;
-    margin-bottom: 5rem;
-
+.card-de-cartoes {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
